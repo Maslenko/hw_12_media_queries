@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+}
+
+.head-bg {
+    width: 100%;
+    height: 710px; 
+    background: linear-gradient(45deg, #324d5b, #465e6b);
+}
+
+.head-content {
+    max-width: 980px;
+    height: 585px; 
+    padding-top: 65px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.logo {
+    width: 95px;
+    height: 95px;
+    margin: 0; 
+}
+
+.logo .border {
+	fill: white;	
+}
+
+.logo .color {
+	fill: url(#logo-gradient);
+}
+
+.logo .symbol {
+	fill: white;
+}
+
+.bullets {
+    position: relative;
+    top: -60px; 
+    left: 145px; 
+    width: 110px;
+    height: 18px;
+    padding: 0; 
+}
+
+.circle {
+    float: left; 
+    width: 12px;
+    height: 12px;
+    background: #627681;
+    border-radius: 50px; 
+    margin-right: 18px;
+    padding: 0;
+}
+
+.circle:hover {
+    background: white; 
+    cursor: pointer; 
+}
+
+h1 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: Arial, sans-serif; 
+    color: white;
+}
+
+.text {
+    max-width: 413px; 
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    line-height: 24px; 
+    color: white;
+}
+
+.text p {
+    margin-bottom: 0;
+}
+
+.head-btn {
+    width: 200px;
+    height: 46px; 
+    border: solid; 
+    border-color: white;
+    border-radius: 5px; 
+    border-width: 3px; 
+    background-color: rgba(50, 77, 91, 0); 
+    font-size: 17px;
+    text-transform: uppercase; 
+    color: white; 
+    cursor: pointer;
+    margin-top: 50px; 
+}
+
+.image {
+    background-image: url(../img/iphone.png);
+    background-repeat: no-repeat; 
+    width: 315px; 
+    height: 555px;    
+    position: relative; 
+    top: -428px;
+    right: -669px;  
+}
+
+/*Навигация*/
+
+.head-nav {
+    width: 100%;
+    height: 60px;
+    background-color: #e74c3c;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    width: 980px;
+    height: 60px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-logo {
+    width: 37px;
+    height: 32px;
+}
+
+.nav-logo .border, .symbol {
+    fill: white; 
+}
+
+.nav-logo .color {
+    fill: #e74c3c; 
+}
+
+.nav-buttons ul {
+    margin-left: 43px; 
+}
+
+.nav-buttons li {
+    display: inline; 
+    font-family: Arial, sans-serif; 
+    font-size: 15px; 
+    text-transform: uppercase;
+    color: white;
+    margin-left: 0;
+    
+}
+
+.nav-buttons li:not(:last-child) {
+    margin-right: 45px; 
+}
+
+.nav-buttons a {
+    text-decoration: none; 
+    color: white; 
+}
+
+/*Main*/
+
+.features {
+    max-width: 1400px;
+    min-height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    width: 370px;
+    border: 1px solid; 
+    
+}
+
+.features svg {
+    width: 70px;
+    height: 70px; 
+}
+
+.features p {
+    text-align: center;
+}
+
+
